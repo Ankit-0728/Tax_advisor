@@ -7,138 +7,26 @@ const Header=()=> {
     <div>
  <header
         id="site-header"
-        className="site-header mobile-header-blue header-style-1"
+        className="site-header mobile-header-blue header-style-1" style={{position:'fixed', width:'100%'}}
       >
-        <div
-          id="header_topbar"
-          className="header-topbar md-hidden sm-hidden clearfix"
-        >
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                {/* social icons */}
-                <ul className="social-list fleft">
-                  <li>
-                    <Link to="#" target="_blank">
-                      <i className="fa fa-twitter" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#" target="_blank">
-                      <i className="fa fa-facebook" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#" target="_blank">
-                      <i className="fa fa-linkedin" />
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to="#" target="_blank">
-                      <i className="fa fa-rss" />
-                    </Link>
-                  </li>
-                </ul>
-                {/* social icons close */}
-                <div className="topbar-text fright" style={{color:'rgb(226,193,0)'}}>
-                  {" "}
-                  Opening Hours : Monday to Saturday - 8am to 9pm
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Top bar close */}
-        {/* Main header start */}
-        <div className="main-header md-hidden sm-hidden">
-          <div className="main-header-top">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12">
-                  <div className="col-wrap-table">
-                    <div
-                      id="site-logo"
-                      className="site-logo col-media-left col-media-middle"
-                    >
-                      <Link to="/">
-                        <img
+        <Link to="/">
+                    <img
                           className="logo-static"
                           src={logo}
                           alt="Consultax"
-                          style={{maxWidth: "21%",
+                          style={{maxWidth: "8%",
                             float: "inline-start"}}
                         />
-                        <img
-                          className="logo-scroll"
-                          src="images/logo-white.svg"
-                          alt="Consultax"
-                        />
-                      </Link>
-                    </div>
-                    <div className="col-media-body col-media-middle">
-                      {/* contact info */}
-                      <ul className="info-list info_on_right_side fright">
-                        <li>
-                          <span style={{color:'rgb(226,193,0)'}}>
-                            Address:{" "}
-                            <strong>
-                              6518 Lee Valley Drive <br />
-                              &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; APT 201 Springfield <br/>
-                              &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Virginia 22150 USA
-                            </strong>
-                          </span>{" "}
-                        </li>
-                        <li >
-                          <span style={{color:'rgb(226,193,0)'}}>
-                            Free call:{" "}
-                            <strong className="font-size18">
-                              +1 571-389-1304
-                            </strong>
-                          </span>{" "}
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                        </Link>
+        <div className="main-header md-hidden sm-hidden">
           <div className="main-header-bottom">
             <div className="container">
               <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-12" style={{marginTop: "12px"}}>
                   <div className="header-mainnav">
-                    <div className="search-cart-box fright">
-                      <div className="h-cart-btn fright">
-                        <Link to="#">
-                          <i className="fa fa-shopping-cart" aria-hidden="true" />
-                        </Link>
-                      </div>
-                      <div className="toggle_search fright">
-                        <i className="fa fa-search" aria-hidden="true" />
-                      </div>
-                      <div className="h-search-form-field">
-                        <form
-                          role="search"
-                          method="get"
-                          id="search-form"
-                          className="search-form"
-                          action="#"
-                        >
-                          <input
-                            type="search"
-                            className="search-field"
-                            placeholder="Enter keyword..."
-                            defaultValue=""
-                            name="s"
-                          />
-                          <button type="submit" className="search-submit">
-                            <i className="fa fa-search" />
-                          </button>
-                        </form>
-                      </div>
-                    </div>
+                  
                     <div id="site-navigation" className="main-navigation fleft">
+                      
                       <ul id="primary-menu" className="menu">
                         <li>
                           <Link to="/">Home</Link>
@@ -164,10 +52,10 @@ const Header=()=> {
                           </ul>
                         </li>
                         <li className="menu-item-has-children">
-                          <Link to="projects.html">Services</Link>
+                          <Link to="#">Services</Link>
                           <ul className="sub-menu">
                           <li>
-                              <Link>toServices</Link>
+                              <Link>Tax Preparation</Link>
                               <ul
                                 className="sub-menu"
                                 style={{ position: "absolute", left: 261 }}
@@ -182,18 +70,18 @@ const Header=()=> {
                                   Business Tax Services
                                   </Link>
                                 </li>
-                                <li className="menu-item-1790">
+                                {/* <li className="menu-item-1790">
                                   <Link to="/ePlanning">
                                     Estate Planning
                                   </Link>
-                                </li>
+                                </li> */}
                               </ul>
                             </li>
                             <li>
                               <Link to="/payroll">Payroll Services</Link>
                             </li>
                             <li>
-                              <Link to="/cfoServices">CFO Services</Link>
+                              <Link to="/cfoServices">ITIN Services</Link>
                             </li>
                             <li>
                               <Link to="/incorpServices">Incorporation Services</Link>
@@ -465,6 +353,23 @@ const Header=()=> {
                         </li>
                         <li>
                           <Link to="/payment">Payments</Link>
+                        </li>
+                        <li>
+                          <Link to="#">Check Your Refund</Link>
+                        </li>
+                        <li style={{marginLeft: '187px'}} >
+                          <span style={{color:'white'}} >
+                            Call:{" "}
+                            <strong className="font-size18" style={{color:'rgb(226,193,0)'}}>
+                              +1 571.389.1304
+                            </strong>
+                          </span>{" "} <br />
+                          <span style={{color:'white'}}>
+                            Email:{" "}
+                            <strong className="font-size18" style={{color:'rgb(226,193,0)'}}>
+                              info.fintaxssolution@gmail.com
+                            </strong>
+                          </span>{" "}
                         </li>
                       </ul>
                     </div>

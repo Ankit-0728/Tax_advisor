@@ -10,6 +10,7 @@ import third from './images/3.jpg'
 import fourth from './images/4.jpg'
 import fifth from './images/5.jpg'
 import sixth from './images/6.jpg'
+import { Link } from 'react-router-dom';
 
 
 const Client=()=> {
@@ -22,33 +23,10 @@ const Client=()=> {
           className="fullwidthbanner-container"
           aria-label="section-slider"
         >
-          <div id="revolution-slider">
-          <MDBCarousel showIndicators showControls fade>
-      <MDBCarouselItem itemId={1}>
-        <img src={image} className='d-block w-100' alt='...' />
-        <MDBCarouselCaption>
-        </MDBCarouselCaption>
-      </MDBCarouselItem>
-
-      <MDBCarouselItem itemId={2}>
-        <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg' className='d-block w-100' alt='...' />
-        <MDBCarouselCaption>
-        </MDBCarouselCaption>
-      </MDBCarouselItem>
-
-      <MDBCarouselItem itemId={3}>
-        <img src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg' className='d-block w-100' alt='...' />
-        <MDBCarouselCaption>
-          {/* <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> */}
-        </MDBCarouselCaption>
-      </MDBCarouselItem>
-    </MDBCarousel>
-          </div>
         </section>
         <section className="wpb_row row-fluid top-80 row-has-fill relative bg-light">
           <div className="container">
-            <div className="row">
+            <div className="row" style={{marginTop: "100px"}}>
               <div className="wpb_column column_container col-sm-12">
                 <div className="column-inner">
                   <div className="wpb_wrapper">
@@ -58,18 +36,36 @@ const Client=()=> {
                   </div>
                 </div>
               </div>
-              <div className="wpb_column column_container col-sm-6 col-md-3">
+              <div className="contai_ner">
+      <div className="cont_ent">
+        <h1>
+        Welcome to Finntax <br />a <span>Tax Professionals</span>
+        </h1>
+        <p>At Finntax, we are committed to providing outstanding service to our clients. Our dedication to the three underlying principles of professionalism, responsiveness, and quality sets us apart.</p>
+        {/* <button className="get-started">GET STARTED →</button> */}
+        <p className="" style={{marginTop:'65px'}}>
+        "Join the many satisfied clients who have trusted Finntax with their tax consulting needs.  <br />
+        Let us help you navigate the complexities of tax laws and regulations with ease and confidence."
+        </p>
+      </div>
+      <div class="blob"></div>
+      {/* <div className="image-section">
+        <img src={sixth} alt="Professional" />
+        <div className="award-badge">
+          <img src={fifth} alt="Readers' Choice Award 2024" />
+          <p>Starting at <span>$30/mo</span></p>
+        </div>
+      </div> */}
+    </div>
+              <div className="wpb_column column_container col-sm-6 col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
                 <div className="column-inner">
                   <div className="wpb_wrapper">
                     <div className="service-box icon-box box-shadow-2 ionic ">
                       <i className="ion-md-medal ion-ios-medal ion-logo-medal ion-ios-medal" />
-                      <div className="content-box">
-                        <h4>OUR VALUES</h4>
-                        <p>
-                          Our firm provides outstanding service to our clients
-                          because of our dedication to the three underlying
-                          principles of professionalism, responsiveness and
-                          quality.
+                      <div className="">
+                        <h4>Our Values</h4>
+                        <p className='set_item'>
+                        Our firm provides outstanding service to our clients because of our dedication to the three underlying principles of professionalism, responsiveness, and quality, ensuring exceptional results.
                         </p>
                       </div>
                     </div>
@@ -79,18 +75,15 @@ const Client=()=> {
                   </div>
                 </div>
               </div>
-              <div className="wpb_column column_container col-sm-6 col-md-3">
+              <div className="wpb_column column_container col-sm-6 col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
                 <div className="column-inner">
                   <div className="wpb_wrapper">
                     <div className="service-box icon-box box-shadow-2 ionic ">
                       <i className="ion-md-bulb ion-ios-bulb ion-logo-bulb ion-ios-bulb" />
-                      <div className="content-box">
-                        <h4>PROFESSIONALISM</h4>
-                        <p>
-                          Our firm is one of the leading firms in the area. By
-                          combining our expertise, experience and the energy of
-                          our staff, each client receives close personal and
-                          professional attention.
+                      <div >
+                        <h4>Professionalism</h4>
+                        <p className='set_item'>
+                        Our firm is one of the leading firms in the area. By combining our expertise, experience and the energy of our staff, each client receives close attention with exceptional service and results.
                         </p>
                       </div>
                     </div>
@@ -100,14 +93,14 @@ const Client=()=> {
                   </div>
                 </div>
               </div>
-              <div className="wpb_column column_container col-sm-6 col-md-3">
+              <div className="wpb_column column_container col-sm-6 col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
                 <div className="column-inner">
                   <div className="wpb_wrapper">
                     <div className="service-box icon-box box-shadow-2 ionic ">
                       <i className="ion-md-cash ion-ios-cash ion-logo-cash ion-ios-cash" />
-                      <div className="content-box">
-                        <h4>RESPONSIVENESS</h4>
-                        <p>
+                      <div>
+                        <h4>Responsiveness</h4>
+                        <p className='set_item'>
                           Companies who choose our firm rely on competent advice
                           and fast, accurate personnel. We provide total financial
                           services to individuals, large and small businesses and
@@ -121,17 +114,15 @@ const Client=()=> {
                   </div>
                 </div>
               </div>
-              <div className="wpb_column column_container col-sm-6 col-md-3">
+              <div className="wpb_column column_container col-sm-6 col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
                 <div className="column-inner">
                   <div className="wpb_wrapper">
                     <div className="service-box icon-box box-shadow-2 ionic ">
                       <i className="ion-md-headset ion-ios-headset ion-logo-headset ion-ios-headset" />
-                      <div className="content-box">
+                      <div>
                         <h4>Quality</h4>
-                        <p>
-                          An accounting firm is known for the quality of its
-                          service. Our firm's reputation reflects the high
-                          standards we demand of ourselves.
+                        <p className='set_item'>
+                        An accounting firm is known for the quality of its service. Our firm's reputation reflects the high standards we demand of ourselves, ensuring excellence, and exceptional client satisfaction.
                         </p>
                         {/* <p>Our primary goal as a trusted advisor is to be available and to provide insightful advice to enable our clients to make informed financial decisions. We do not accept anything less from ourselves and this is what we deliver to you.</p>
                                     <p>We feel it is extremely important to continually professionally educate ourselves to improve our technical expertise, financial knowledge and service to our clients.</p>
@@ -145,7 +136,7 @@ const Client=()=> {
             </div>
           </div>
         </section>
-        <section className="wpb_row row-fluid section-padd row-has-fill row-o-equal-height row-o-content-middle row-flex bg-light">
+        {/* <section className="wpb_row row-fluid section-padd row-has-fill row-o-equal-height row-o-content-middle row-flex bg-light">
           <div className="container">
             <div className="row">
               <div className="wpb_column column_container col-sm-12">
@@ -212,7 +203,7 @@ const Client=()=> {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <section className="wpb_row row-fluid section-padd">
           <div className="container">
             <div className="row">
@@ -237,7 +228,7 @@ const Client=()=> {
                     <div className="wpb_text_column wpb_content_element text-right mobile-left">
                       <div className="wpb_wrapper">
                         <p>
-                          <a className="pagelink gray" href="services.html">
+                          <a className="pagelink gray" href="">
                             All services
                           </a>
                         </p>
@@ -252,8 +243,8 @@ const Client=()=> {
                     <div className="service-box icon-box  ionic  hover-box">
                       <i className="ion-md-umbrella ion-logo-umbrella" />
                       <div className="content-box">
-                        <h4>PERSONAL & SELF-EMPLOYED TAX</h4>
-                        <p>
+                        <h4>Individual Tax Services</h4>
+                        <p className='set_item'>
                         We’ll assist you in navigating the complexities of filing your income tax return when the time comes.
                         </p>
                         <a
@@ -277,8 +268,8 @@ const Client=()=> {
                     <div className="service-box icon-box  ionic  hover-box">
                       <i className="ion-md-cube ion-logo-cube" />
                       <div className="content-box">
-                        <h4>ACCOUNTING & BOOKKEEPING</h4>
-                        <p>
+                        <h4>Accounting & Bookkeeping</h4>
+                        <p className='set_item'>
                         Bookkeeping involves the systematic recording of all financial transactions within a business. These transactions include sales, purchases, payments, receipts, and expenses. Bookkeepers maintain accurate and up-to-date records of these transactions using accounting software or manual ledgers.
                         </p>
                         <a
@@ -303,7 +294,7 @@ const Client=()=> {
                       <i className="ion-md-podium ion-logo-podium" />
                       <div className="content-box">
                         <h4>Payroll Services</h4>
-                        <p>
+                        <p className='set_item'>
                         Managing payroll can be a complex and time-consuming task for small business owners, given the numerous regulations and requirements. Instead of spending hours each month on payroll functions, let us handle it for you so you can focus on running and growing your business.
                         </p>
                         <a
@@ -327,18 +318,18 @@ const Client=()=> {
                     <div className="service-box icon-box  ionic  hover-box">
                       <i className="ion-md-list-box ion-logo-list-box" />
                       <div className="content-box">
-                        <h4>CFO Services</h4>
-                        <p>
-                        Our CFO services are designed to support your company’s financial health
-      and strategic goals. We offer a comprehensive suite of services.
+                        <h4>ITIN Services</h4>
+                        <p className='set_item'>
+                        We specialize in providing comprehensive ITIN (Individual Taxpayer Identification Number) services to individuals who require a U.S. taxpayer identification number for tax purposes but are not eligible for a Social Security Number (SSN).
                         </p>
-                        <a
+                        <Link
                           className="link-box pagelink"
-                          href="/cfoServices"
+                         
+                          to='/cfoServices'
                           target="_self"
                         >
                           Read more
-                        </a>{" "}
+                        </Link>{" "}
                       </div>
                     </div>
                     <div className="empty_space_30 lg-hidden">
@@ -354,7 +345,7 @@ const Client=()=> {
                       <i className="ion-md-cash ion-logo-cash" />
                       <div className="content-box">
                         <h4>Incorporation Services</h4>
-                        <p>
+                        <p className='set_item'>
                         Assist in choosing the appropriate legal structure for your business, such as LLC or Corporation, based on your specific needs and goals.
                         </p>
                         <a
@@ -379,7 +370,7 @@ const Client=()=> {
                       <i className="ion-md-wallet ion-logo-wallet" />
                       <div className="content-box">
                         <h4>Business Tax Services</h4>
-                        <p>
+                        <p className='set_item'>
                         Our Business Tax Services are designed to help your company comply with tax regulations and minimize tax liabilities. We provide a comprehensive range of services to meet your business's needs.
                         </p>
                         <a
@@ -394,42 +385,6 @@ const Client=()=> {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-        <section className="wpb_row row-fluid section-padd-top bg-light">
-          <div className="container">
-            <div className="row">
-              <div className="wpb_column column_container col-sm-12 col-md-9">
-                <div className="column-inner">
-                  <div className="wpb_wrapper">
-                    <div className="section-head ">
-                      <h6>
-                        <span>Our Projects</span>
-                      </h6>
-                      <h2 className="section-title">We are the leaders</h2>
-                    </div>
-                    <div className="empty_space_30 md-hidden sm-hidden">
-                      <span className="empty_space_inner" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* <div className="wpb_column column_container col-sm-12 col-md-3">
-                <div className="column-inner">
-                  <div className="wpb_wrapper">
-                    <div className="wpb_text_column wpb_content_element text-right mobile-left">
-                      <div className="wpb_wrapper">
-                        <p>
-                          <a className="pagelink gray" href="projects.html">
-                            All projects
-                          </a>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
             </div>
           </div>
         </section>
@@ -624,7 +579,7 @@ const Client=()=> {
             </div>
           </div>
         </section> */}
-        <section className="wpb_row row-fluid section-padd bg-second row-has-fill">
+        {/* <section className="wpb_row row-fluid section-padd bg-second row-has-fill">
           <div className="container">
             <div className="row">
               <div className="wpb_column column_container col-sm-6">
@@ -741,7 +696,7 @@ const Client=()=> {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* <section className="wpb_row row-fluid section-padd bg-light">
           <div className="container">
             <div className="row">
@@ -1024,16 +979,13 @@ const Client=()=> {
             </div>
           </div>
         </section> */}
-        <section className="wpb_row row-fluid section-padd">
+        <section className="wpb_row row-fluid section-padd" style={{padding:'60px'}}>
           <div className="container">
             <div className="row">
               <div className="wpb_column column_container col-sm-12">
                 <div className="column-inner">
                   <div className="wpb_wrapper">
                     <div className="section-head ">
-                      <h6>
-                        <span>testimonial &amp; partner</span>
-                      </h6>
                       <h2 className="section-title">What our clients says?</h2>
                     </div>
                     <div className="empty_space_30">
@@ -1059,7 +1011,7 @@ const Client=()=> {
                           <div className="testi-content">
                             <i className="ion-md-quote" />
                             {/* <img src="images/stars.png" alt="" /> */}
-                            <p>
+                            <p >
                               I am alone, and feel the charm of existence in this
                               spot, which was created for the bliss of souls like
                               mine. Thank you !

@@ -6,51 +6,61 @@ const CFOServices=()=> {
   return ( 
     <>
     <Header />
-    <div className="container">
-  <div className="header">
-    <h2>CFO Services</h2>
-  </div>
-  <div className="content">
-    <h3>Comprehensive Financial Support</h3>
-    <p style={{textAlign:'justify'}}>
-      Our CFO services are designed to support your company’s financial health
-      and strategic goals. We offer a comprehensive suite of services that
-      include:
-    </p>
-    <ul style={{textAlign:'justify'}}>
-      <li>
-        <strong>Financial Planning and Analysis:</strong> Develop detailed
-        financial plans, forecasts, and budgets to guide the company’s financial
-        strategy and decision-making processes.
-      </li>
-      <li>
-        <strong>Cash Flow Management:</strong> Monitor and manage the company’s
-        cash flow to ensure liquidity, optimize working capital, and maintain
-        financial stability.
-      </li>
-      <li>
-        <strong>Financial Reporting:</strong> Oversee the preparation of
-        accurate and timely financial reports, ensuring compliance with
-        regulatory requirements and accounting standards.
-      </li>
-      <li>
-        <strong>Risk Management:</strong> Identify, assess, and mitigate
-        financial risks, including market, credit, and operational risks, to
-        safeguard the company’s assets and ensure long-term viability.
-      </li>
-      <li>
-        <strong>Strategic Financial Advice:</strong> Provide strategic financial
-        advice to the executive team and board of directors, supporting informed
-        decision-making to drive the company’s growth and success.
-      </li>
-    </ul>
-    <p style={{textAlign:'justify'}}>
-      By leveraging our CFO services, your company can achieve robust financial
-      health, navigate risks effectively, and make strategic decisions that
-      drive long-term success.
-    </p>
-  </div>
-</div>
+    <div className="entry-content">
+						<div className="container">
+							<div className="boxed-content">
+								<section className="wpb_row row-fluid section-padd">
+									<div className="container">
+										<div className="row">
+											<div className="wpb_column column_container col-sm-12">
+												<div className="column-inner">
+													<div className="wpb_wrapper">
+														<div className="section-head" >
+														<div>
+      <h2>ITIN Services</h2>
+      <p>
+        We specialize in providing comprehensive ITIN (Individual Taxpayer Identification Number) services to individuals who require a U.S. taxpayer identification number for tax purposes but are not eligible for a Social Security Number (SSN).
+      </p>
+      <p>
+        Our ITIN services include:
+      </p>
+      <ul>
+        <li>
+          <strong>ITIN Application Assistance:</strong> We guide you through the ITIN application process, ensuring all forms are completed accurately and efficiently.
+        </li>
+        <li>
+          <strong>Documentation Submission:</strong> We help gather and submit the necessary documentation required by the IRS for your ITIN application, including identification and residency documents.
+        </li>
+        <li>
+          <strong>ITIN Renewals and Updates:</strong> If your ITIN is expiring or needs updating due to changes in personal status, we assist with renewal applications and updates.
+        </li>
+        <li>
+          <strong>Consultation Services:</strong> Our experts provide personalized consultation to determine your eligibility for an ITIN and answer any questions you may have about the process.
+        </li>
+        <li>
+          <strong>Follow-up and Status Updates:</strong> We communicate with the IRS on your behalf, ensuring your application progresses smoothly and providing updates on the status of your ITIN.
+        </li>
+        <li>
+          <strong>Tax Advisory:</strong> We offer insights into tax implications associated with having an ITIN, helping you understand your responsibilities and potential benefits.
+        </li>
+      </ul>
+      <p>
+        Whether you are a non-resident alien required to file U.S. taxes, a dependent or spouse of a U.S. citizen or resident alien, or a foreign investor in U.S. properties, we are dedicated to simplifying the ITIN application process for you.
+      </p>
+      <p>
+        Contact us today to speak with our ITIN specialists and learn how we can assist you in obtaining or renewing your ITIN efficiently and effectively.
+      </p>
+    </div>
+													</div>
+													</div>
+											</div>
+										</div>
+									</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
 <Footer />
     
     </>

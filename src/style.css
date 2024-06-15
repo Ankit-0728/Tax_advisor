@@ -939,7 +939,7 @@ td {
   display: inline-block;
   margin-bottom: 0;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   white-space: nowrap;
   vertical-align: middle;
   font-family: "Montserrat", sans-serif;
@@ -1252,7 +1252,7 @@ ul.info-list.info_on_right_side li:last-child {
   text-decoration: none;
   text-align: center;
   outline: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fff;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1459,7 +1459,7 @@ ul.info-list.info_on_right_side li:last-child {
   color: #fff;
   font-size: 12px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .btn-cta-header a:visited {
   color: #fff;
@@ -3076,7 +3076,14 @@ object {
 .image-box .content-box {
   padding: 26px 30px 28px;
 }
-
+.content-box{
+  height: 250px;
+  width: 300px;
+  /* align-items: justify; */
+}
+.set_item{
+  text-align: left;
+}
 .archive .service-box {
   margin-bottom: 30px;
 }
@@ -5095,4 +5102,108 @@ div.line-chart .chart-legend li {
 .plan button:hover {
   background-color: rgb(0,117,0);
   border: 2px solid rgb(226,193,0);
+}
+
+.contai_ner {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.cont_ent {
+  max-width: 50%;
+}
+
+.cont_ent h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.cont_ent h1 span {
+  color: #000;
+}
+
+.cont_ent p {
+  margin: 20px 0;
+}
+
+.get-started {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.award {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.image-section {
+  position: relative;
+  max-width: 40%;
+}
+
+.image-section img {
+  width: 100%;
+}
+
+.award-badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.award-badge img {
+  max-width: 100px;
+}
+
+.award-badge p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.award-badge p span {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+.bod_div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+}
+.blob {
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
+  background: url(./images/logo_image.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 35px green;
+  animation: blob 3.5s linear infinite;  
+}
+
+@keyframes blob {
+  0%,
+  100% {
+      border-radius: 42% 56% 72% 28% / 42% 42% 56% 48% ;
+  }
+  33% {
+      border-radius: 42% 56% 72% 28% / 42% 42% 56% 48% ;
+  }
+  66% {
+      border-radius: 100% 56% 56% 100% /  100% 100% 56% 56% ;
+  }
 }

@@ -10,7 +10,7 @@ const ContactUs=()=> {
     <Header />
     <div className="contain">
   <div className="row p-5">  
-    <div className="col-md-6 myForm"> 
+    <div className="col-md-5 myForm" style={{marginTop:'80px'}}> 
     <h2 className='myCont'>Contact Us</h2>
       <form>
         <input type="text" className="input-field" placeholder="Your Name.." />
@@ -25,12 +25,12 @@ const ContactUs=()=> {
           placeholder="Enter Your Message.."
           defaultValue={""}
         />
-        <button type="submit" className="button">
+        <button type="submit" className="button" style={{marginTop:'30px',marginLeft:'165px'}}>
           SEND MESSAGE
         </button>
       </form>
     </div>
-    <div className="col-md-6" style={{textAlign:'justify'}}>
+    <div className="col-md-6" style={{textAlign:'justify',marginTop:'100px',marginLeft:'50px'}}>
    
       <h4>Feel Free To Contact And Reach Us For More Info !</h4>
       <p style={{textAlign:'justify'}}>

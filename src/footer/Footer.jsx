@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer =()=> {
   return (
@@ -23,9 +24,9 @@ const Footer =()=> {
                       dapibus non apte magna ad suspendisse nec pulvi.
                     </p>
                     <p>
-                      <a href="/about" className="pagelink gray">
+                      <Link to="/about" className="pagelink gray">
                         About us
-                      </a>
+                      </Link>
                     </p>
                     <div className="ot-socials bg-white">
                       <a target="_blank" href="#" rel="noopener noreferrer">
@@ -52,27 +53,24 @@ const Footer =()=> {
                 >
                   <h4 className="widget-title">Services</h4>
                   <div className="textwidget custom-html-widget">
-                    <ul className="padd-left" style={{
-                      textAlign: "justify",
-                      marginLeft: "30px"
-                    }}>
+                    <ul className="padd-left set_item">
                       <li>
-                        <a href="/">Audit &amp; Assurance</a>
+                        <Link to="/">Audit &amp; Assurance</Link>
                       </li>
                       <li>
-                        <a href="/">Bonds &amp; Commodities</a>
+                        <Link to="/">Bonds &amp; Commodities</Link>
                       </li>
                       <li>
-                        <a href="/">Financial Consulting</a>
+                        <Link to="/">Financial Consulting</Link>
                       </li>
                       <li>
-                        <a href="/">Trades &amp; Stocks</a>
+                        <Link to="/">Trades &amp; Stocks</Link>
                       </li>
                       <li>
-                        <a href="/">Financial Projections</a>
+                        <Link to="/">Financial Projections</Link>
                       </li>
                       <li>
-                        <a href="/">Strategic Planning</a>
+                        <Link to="/">Strategic Planning</Link>
                       </li>
                     </ul>
                   </div>
@@ -86,24 +84,26 @@ const Footer =()=> {
                 >
                   <h4 className="widget-title">Company</h4>
                   <div className="textwidget custom-html-widget">
-                    <ul className="padd-left" style={{
-                      textAlign: "justify",
-                      marginLeft: "58px"
-                    }}>
+                    <ul className="padd-left set_item">
                       <li>
-                        <a href="/">Home</a>
+                        
+                        <Link to="/">Home</Link>
                       </li>
                       <li>
-                        <a href="/about">About</a>
+                        
+                        <Link to="/about">About</Link>
                       </li>
                       <li>
-                        <a href="">Services</a>
+                        
+                        <Link to="">Services</Link>
                       </li>
                       <li>
-                        <a href="">Blog</a>
+                        
+                        <Link to="">Blog</Link>
                       </li>
                       <li>
-                        <a href="/contactUs">Contact</a>
+                        
+                        <Link to="/contactUs">Contact</Link>
                       </li>
                     </ul>
                   </div>
@@ -182,13 +182,13 @@ const Footer =()=> {
                 <div className="footer-nav text-right mobile-center">
                   <ul id="footer-menu" className="none-style">
                     <li>
-                      <a href="/terms_cond">Terms and Conditions</a>
+                      <Link to="/terms_cond">Terms and Conditions</Link>
                     </li>
                     <li>
-                      <a href="#">Privacy Policy</a>
+                      <Link to="#">Privacy Policy</Link>
                     </li>
                     <li>
-                      <a href="#">FAQs</a>
+                      <Link to="#">FAQs</Link>
                     </li>
                   </ul>
                 </div>

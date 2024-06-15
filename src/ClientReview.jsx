@@ -34,7 +34,7 @@ const ClientReview=()=> {
         <div className="col-md-8">
             <div id="page-pad" className="cp_clientreviews">
                 <div id="Header">
-                    <h3>Reviews</h3>
+                    <h3 style={{marginTop:'20px'}}>Reviews</h3>
                 </div>
                 <div id="Text">
                     <p style={{textAlign:'justify'}}>
@@ -205,7 +205,7 @@ const ClientReview=()=> {
                 <div className="clearfix" />
                 <div className="module hidden-xs hidden-sm">
                 <div className="module module-contact" style={{marginLeft: "87px"}}>
-                    <h3>Contact Us</h3>
+                    <h3 style={{marginTop: "165px"}}>Contact Us</h3>
                 </div>
                 <div style={{marginLeft:"90px"}} >
                     
