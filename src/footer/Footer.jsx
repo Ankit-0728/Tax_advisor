@@ -20,8 +20,7 @@ const Footer =()=> {
                 >
                   <div className="textwidget custom-html-widget">
                     <p>
-                      Sorem ipsum dolor sit amet consectetur adipiscing elit
-                      dapibus non apte magna ad suspendisse nec pulvi.
+                    Trust us to handle your financial needs with precision and integrity.
                     </p>
                     <p>
                       <Link to="/about" className="pagelink gray">
@@ -55,22 +54,22 @@ const Footer =()=> {
                   <div className="textwidget custom-html-widget">
                     <ul className="padd-left set_item">
                       <li>
-                        <Link to="/">Audit &amp; Assurance</Link>
+                        <Link to="#">Individual Tax Services </Link>
                       </li>
                       <li>
-                        <Link to="/">Bonds &amp; Commodities</Link>
+                        <Link to="#">Business Tax Services</Link>
                       </li>
                       <li>
-                        <Link to="/">Financial Consulting</Link>
+                        <Link to="#">Payroll Services</Link>
                       </li>
                       <li>
-                        <Link to="/">Trades &amp; Stocks</Link>
+                        <Link to="#">ITIN Services</Link>
                       </li>
                       <li>
-                        <Link to="/">Financial Projections</Link>
+                        <Link to="#">Incorporation Services</Link>
                       </li>
                       <li>
-                        <Link to="/">Strategic Planning</Link>
+                        <Link to="#">Accounting &amp; Bookkeeping</Link>
                       </li>
                     </ul>
                   </div>
@@ -92,10 +91,6 @@ const Footer =()=> {
                       <li>
                         
                         <Link to="/about">About</Link>
-                      </li>
-                      <li>
-                        
-                        <Link to="">Services</Link>
                       </li>
                       <li>
                         

@@ -215,9 +215,9 @@ const ClientReview=()=> {
                             APT 201 Springfield<br />
                             Virginia 22150 USA
                             <br />
-                            <b>Phone: +1 571-389-1304</b>
+                            <b>Phone: +1 571.389.1304</b>
                             <br />
-                            <a href="mailto:info@finntaxsolutions.com">info@finntaxsolutions.com</a>
+                            <a href="mailto:info@finntaxsolutions.com">info.finntaxs@gmail.com</a>
                         </p>
                     
                 </div>

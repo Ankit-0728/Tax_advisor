@@ -98,7 +98,8 @@
 
   .myCont{
     color:white; 
-    margin-top: 12px;
+    margin-top: 32px;
+    text-align: center;
   }
   .section.content {
     background-color: rgb(229, 238, 246);

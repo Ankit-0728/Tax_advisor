@@ -10,7 +10,7 @@ const ContactUs=()=> {
     <Header />
     <div className="contain">
   <div className="row p-5">  
-    <div className="col-md-5 myForm" style={{marginTop:'80px'}}> 
+    <div className="col-md-5 myForm" style={{marginTop:'100px',maxHeight: "675px"}}> 
     <h2 className='myCont'>Contact Us</h2>
       <form>
         <input type="text" className="input-field" placeholder="Your Name.." />
@@ -25,7 +25,7 @@ const ContactUs=()=> {
           placeholder="Enter Your Message.."
           defaultValue={""}
         />
-        <button type="submit" className="button" style={{marginTop:'30px',marginLeft:'165px'}}>
+        <button type="submit" className="button" style={{marginTop:'100px',marginLeft:'165px'}}>
           SEND MESSAGE
         </button>
       </form>
@@ -42,24 +42,31 @@ const ContactUs=()=> {
         to address your questions whenever necessary.
       </p>
       <div className="contact-info">
-        <i className="contact-info-icon fas fa-map-marker-alt fa-2x" style={{ fontSize: "xx-large"}} />
+        <i className="contact-info-icon fas fa-map-marker-alt fa-2x" style={{ fontSize: "xx-large",marginTop:'-123px'}} />
         <div className="contact-info-text">
           <h3>Location Address :</h3>
-          <p>6518 Lee Valley Drive, APT 201 Springfield, Virginia 22150, USA</p>
+          
+          <h5>USA</h5>
+          <p>6518 Lee Valley Drive, Apt #201 Springfield, Virginia 22150</p>
+          <h5>INDIA</h5>
+          <p style={{textAlign:'justify'}}>Vijay Nagar, Medanta Hopsital, Indore 452010</p>
         </div>
       </div>
       <div className="contact-info">
-        <i className="contact-info-icon fas fa-phone-alt"style={{ fontSize: "xx-large"}} />
+        <i className="contact-info-icon fas fa-phone-alt"style={{ fontSize: "xx-large",marginTop:'-123px'}} />
         <div className="contact-info-text">
           <h3>Phone Numbers :</h3>
-          <p style={{textAlign:'justify'}}>+1 437-292-4433</p>
+          <h5>USA</h5>
+          <p style={{textAlign:'justify'}}>+1 571.389.1304</p>
+          <h5>INDIA</h5>
+          <p style={{textAlign:'justify'}}>+91 000-000-0000</p>
         </div>
       </div>
       <div className="contact-info">
         <i className="contact-info-icon fas fa-envelope"style={{ fontSize: "xx-large"}} />
         <div className="contact-info-text">
           <h3>Email Address:</h3>
-          <p style={{textAlign:'justify'}}>info@yourwebsite.com</p>
+          <p style={{textAlign:'justify'}}>info.finntaxs@gmail.com</p>
         </div>
       </div>
     </div>

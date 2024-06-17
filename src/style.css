@@ -1219,7 +1219,7 @@ ul.info-list.info_on_right_side li:last-child {
 
 .main-navigation ul {
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 700;
   list-style: none;
   margin: 0px 0px;
@@ -1233,6 +1233,7 @@ ul.info-list.info_on_right_side li:last-child {
   float: left;
   display: inline-block;
   position: relative;
+  margin-top: 15px;
 }
 
 .main-navigation ul ul {
@@ -1318,7 +1319,7 @@ ul.info-list.info_on_right_side li:last-child {
 
 .main-navigation ul > li li.menu-item-has-children > a:after {
   position: absolute;
-  width: 9px;
+  width: 5px;
   height: 14px;
   right: 15px;
   top: 50%;
@@ -2632,7 +2633,7 @@ ul.info-list.info_on_right_side li:last-child {
   padding-bottom: 30px;
 }
 .main-footer .widget.padding-left {
-  padding-left: 70px;
+  padding-left: 28px;
 }
 .main-footer ul {
   list-style: none;
@@ -2973,7 +2974,7 @@ object {
 .service-box {
   position: relative;
   background: #fff;
-  padding: 25px 30px 28px;
+  padding: 25px 16px 28px;
   border-radius: 2px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -3078,8 +3079,8 @@ object {
 }
 .content-box{
   height: 250px;
-  width: 300px;
-  /* align-items: justify; */
+  /* width: 300px; */
+  align-items: left;
 }
 .set_item{
   text-align: left;
@@ -5206,4 +5207,16 @@ div.line-chart .chart-legend li {
   66% {
       border-radius: 100% 56% 56% 100% /  100% 100% 56% 56% ;
   }
+}
+
+#font_change {
+  font-family: 'Raleway', Helvetica, Arial, Lucida, sans-serif;
+  /* font-size: 30px;  */
+  line-height: 40px;
+}
+#font_change_light {
+  font-family: 'Helvetica', Arial, Lucida, sans-serif;
+  font-size: 25px;
+  font-weight: 100;
+  color: rgb(79, 79, 79);
 }

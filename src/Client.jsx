@@ -38,14 +38,14 @@ const Client=()=> {
               </div>
               <div className="contai_ner">
       <div className="cont_ent">
-        <h1>
-        Welcome to Finntax <br />a <span>Tax Professionals</span>
+        <h1 id="font_change">
+        Welcome to Finntax Solutions <br /><span id="font_change_light">a Tax/Accounting Professionals</span>
         </h1>
         <p>At Finntax, we are committed to providing outstanding service to our clients. Our dedication to the three underlying principles of professionalism, responsiveness, and quality sets us apart.</p>
         {/* <button className="get-started">GET STARTED →</button> */}
         <p className="" style={{marginTop:'65px'}}>
-        "Join the many satisfied clients who have trusted Finntax with their tax consulting needs.  <br />
-        Let us help you navigate the complexities of tax laws and regulations with ease and confidence."
+        "Join the many satisfied clients who have trusted Finntax with their tax consulting needs."  <br /><br />
+        Let us help you navigate the complexities of tax laws and regulations with ease and confidence.
         </p>
       </div>
       <div class="blob"></div>
@@ -268,7 +268,7 @@ const Client=()=> {
                     <div className="service-box icon-box  ionic  hover-box">
                       <i className="ion-md-cube ion-logo-cube" />
                       <div className="content-box">
-                        <h4>Accounting & Bookkeeping</h4>
+                        <h4 style={{fontSize:'16px'}}>Accounting & Bookkeeping</h4>
                         <p className='set_item'>
                         Bookkeeping involves the systematic recording of all financial transactions within a business. These transactions include sales, purchases, payments, receipts, and expenses. Bookkeepers maintain accurate and up-to-date records of these transactions using accounting software or manual ledgers.
                         </p>

@@ -2,8 +2,8 @@ import React from 'react'
 import Footer from './footer/Footer'
 import Header from './header/Header'
 import team from './images/team.jpg'
-import ceo from './images/ceo.jpg'
-import new_md from './images/new.jpg'
+import ceo from './images/director.jpeg'
+import new_md from './images/marketingH.jpeg'
 import trainer from './images/trainer.jpg'
 import trainer_1 from './images/trainer1.jpg'
 import trainer_2 from './images/trainer3.jpg'
@@ -121,13 +121,12 @@ const Employment = () => {
                         </div>
                         <div className="mem-info">
                           <h5>
-                            James Patterson
+                            Dilip Agarwal
                             <span className="font12 normal">Founder &amp; CEO</span>
                           </h5>
                           <div className="line" />
-                          <p>
-                            Inceptos himenaeos tristique volutpat bibendum lac
-                            posuere at, praesent nunc magnis.
+                          <p style={{textAlign:'justify'}}>
+                          A visionary leader dedicated to excellence in tax and accounting services.
                           </p>
                           <div className="social-mem">
                             <a href="#" target="_blank">
@@ -157,13 +156,12 @@ const Employment = () => {
                         </div>
                         <div className="mem-info">
                           <h5>
-                            Adam Mitzner
+                            Kirti Agarwal
                             <span className="font12 normal">Marketing Manager</span>
                           </h5>
                           <div className="line" />
-                          <p>
-                            Inceptos himenaeos tristique volutpat bibendum lac
-                            posuere at, praesent nunc magnis.
+                          <p style={{textAlign:'justify'}}>
+                          An expert who drives our innovative strategies to connect and serve our valued clients.
                           </p>
                           <div className="social-mem">
                             <a href="#" target="_blank">
