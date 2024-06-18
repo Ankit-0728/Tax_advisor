@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../images/fintaxxLogo.png'
 import { Link } from 'react-router-dom'
+import { FaPhoneAlt, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
 const Header=()=> {
   return (
@@ -98,8 +99,23 @@ const Header=()=> {
                         <li>
                           <Link to="https://sa.www4.irs.gov/wmr/">Check Your Refund</Link>
                         </li>
+                        <li>
+      <span style={{color:'white'}} >
+        <FaPhoneAlt style={{marginRight: '8px'}} />
+        <FaWhatsapp style={{marginRight: '8px'}} />
+        <strong className="font-size18" style={{color:'rgb(226,193,0)'}}>
+          +1 571.389.1304
+        </strong>
+      </span>{" "} <br />
+      <span style={{color:'white'}}>
+        <FaEnvelope style={{marginRight: '8px'}} />
+        <strong className="font-size18" style={{color:'rgb(226,193,0)'}}>
+          info.finntaxs@gmail.com
+        </strong>
+      </span>{" "}
+    </li>
               
-                        <li 
+                        {/* <li 
                         // style={{marginLeft: '-2px'}}
                          >
                           <span style={{color:'white'}} >
@@ -114,7 +130,7 @@ const Header=()=> {
                               info.finntaxs@gmail.com
                             </strong>
                           </span>{" "}
-                        </li>
+                        </li> */}
                       
                       </ul>
                     </div>

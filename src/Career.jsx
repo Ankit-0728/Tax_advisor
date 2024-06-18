@@ -22,7 +22,7 @@ const Career = () => {
       <div id="page" className="site">
         <Header />
         <div id="content" className="site-content">
-          <div className="page-header">
+          <div className="page-header" style={{marginTop: "83px"}}>
           <img src={team} style={{width:'1264px', height: "350px"}} />
             <div className="container">
               <div className="breadc-box no-line">

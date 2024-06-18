@@ -24,27 +24,7 @@ const AboutUs = () => {
       <div id="page" className="site">
         <Header />
         <div id="content" className="site-content"  >
-          <div className="page-header"  style={{marginTop:'82px'}} >
-          <img src={team} style={{width:'1264px', height: "350px"}} />
-            <div className="container">
-              <div className="breadc-box no-line">
-                
-                <div className="">
-                  {/* <div className="col-md-6">
-                    <h1 className="page-title">Team</h1>
-                  </div> */}
-                  <div className="col-md-6 mobile-left text-right">
-                    <ul id="breadcrumbs" className="breadcrumbs none-style">
-                      <li>
-                        <a href="index.html">Home</a>
-                      </li>
-                      <li className="active">About Us</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <section className="wpb_row row-fluid section-padd">
             <div className="container">
               <div className="row">
@@ -62,10 +42,10 @@ const AboutUs = () => {
                           <div style={{display:'flex'}}>
                           <div  >
                           <p style={{textAlign:'justify'}}>
-                            FINNTAX SOLUTIONS LLC, is seeking professional, hard-working, licensed CPAs with at least four years of experience.
+                          At FINNTAX SOLUTIONS LLC, we specialize in delivering comprehensive financial and tax advisory services tailored to meet the diverse needs of our clients. With a commitment to excellence and a deep understanding of financial regulations, our team of experienced professionals strives to provide personalized solutions that empower our clients to achieve their financial goals.
                           </p>
                           <p style={{textAlign:'justify',paddingRight: '52px'}}>
-                            The Firm demands independence, integrity, objectivity, competence and due care from all of its personnel in the conduct of its engagements. Our Firm is structured to provide leadership in achieving high quality professional performance while maintaining the concept of individual responsibility. Policies and procedures have been established providing assurance that professional engagements are properly planned and executed. Decisions are based on the substance of issues, not on form.
+                          Our mission is to be a trusted partner to individuals and businesses alike, offering expert guidance and innovative strategies to optimize financial outcomes. We aim to build lasting relationships based on integrity, transparency, and results.
                           </p>
                           </div>
 
