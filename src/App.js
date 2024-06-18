@@ -19,6 +19,8 @@ import Book_Acc from './Book_Acc';
 import ContactUs from './ContactUs';
 import TermandCondition from './Term_Con';
 import Payment from './Pay_ment';
+import Career from './Career';
+import AboutUs from './AboutUs';
 
 function App() {
   return (
@@ -45,6 +47,8 @@ function App() {
     <Route path="/contactUs" element={<ContactUs /> } />
     <Route path="/terms_cond" element={<TermandCondition /> } />
     <Route path="/payment" element={<Payment /> } />
+    <Route path="/career" element={<Career /> } />
+    <Route path="/about_s" element={<AboutUs /> } />
 
     
  

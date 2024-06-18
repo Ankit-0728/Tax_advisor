@@ -16,7 +16,7 @@ import join_us from './images/join_us.jpg'
 
 
 
-const Employment = () => {
+const Career = () => {
   return (
     <>
       <div id="page" className="site">
@@ -36,7 +36,7 @@ const Employment = () => {
                       <li>
                         <a href="index.html">Home</a>
                       </li>
-                      <li className="active">Employment</li>
+                      <li className="active">Career</li>
                     </ul>
                   </div>
                 </div>
@@ -54,7 +54,7 @@ const Employment = () => {
                   <div className="column-inner">
                     <div className="wpb_wrapper">
                       <div className="section-head ">
-                        <h2 className="section-title linear_color">Employment Opportunities</h2>
+                        <h2 className="section-title linear_color">Career</h2>
                       </div>
                       <div className="wpb_text_column wpb_content_element">
                         <div className="wpb_wrapper">
@@ -110,7 +110,7 @@ const Employment = () => {
                     </div>
                   </div>
                 </div>
-                <div className="wpb_column column_container col-sm-12 col-md-6" style={{marginTop:'30px'}}>
+                {/* <div className="wpb_column column_container col-sm-12 col-md-6" style={{marginTop:'30px'}}>
                   <div className="column-inner" style={{border: '2px solid white',
     borderRadius: '10px'}}>
                     <div className="wpb_wrapper">
@@ -144,8 +144,8 @@ const Employment = () => {
                       <div className="empty_space_30 lg-hidden" />
                     </div>
                   </div>
-                </div>
-                <div className="wpb_column column_container col-sm-12 col-md-6" style={{marginTop:'30px'}}>
+                </div> */}
+                {/* <div className="wpb_column column_container col-sm-12 col-md-6" style={{marginTop:'30px'}}>
                   <div className="column-inner" style={{border: '2px solid white',
     borderRadius: '10px'}}>
                     <div className="wpb_wrapper">
@@ -178,11 +178,11 @@ const Employment = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>
-          <section className="wpb_row row-fluid section-padd no-top">
+          {/* <section className="wpb_row row-fluid section-padd no-top">
             <div className="container">
               <div className="row">
                 <div className="wpb_column column_container col-sm-12">
@@ -449,7 +449,7 @@ const Employment = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
           <section className="wpb_row row-fluid section-padd no-top">
             <div className="container">
               <div className="row">
@@ -498,4 +498,4 @@ const Employment = () => {
   )
 }
 
-export default Employment
+export default Career

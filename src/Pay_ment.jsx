@@ -73,7 +73,7 @@ const Payment=()=> {
     <>
     <Header />
 
-    <div className="pricing-table">
+    {/* <div className="pricing-table">
       <h2 style={{marginTop: '30px'}}>Our Composite Approach for Pricing</h2>
       <p>Below are our fees packages for Corporate Tax, Bookkeeping, Accounting and Related Advisory Services</p>
       <div className="plans">
@@ -148,7 +148,69 @@ const Payment=()=> {
       </div>
     </div>
   </div>
-</div>
+</div> */}
+
+
+<div className="column-inner">
+                    <div className="wpb_wrapper">
+                      <div className="section-head ">
+                        <h2 className="section-title linear_color">Employment Opportunities</h2>
+                      </div>
+                      <div className="wpb_text_column wpb_content_element">
+                        <div className="wpb_wrapper">
+                          <div style={{display:'flex'}}>
+                          <div  >
+                          <p style={{textAlign:'justify'}}>
+                            FINNTAX SOLUTIONS LLC, is seeking professional, hard-working, licensed CPAs with at least four years of experience.
+                          </p>
+                          <p style={{textAlign:'justify',paddingRight: '52px'}}>
+                            The Firm demands independence, integrity, objectivity, competence and due care from all of its personnel in the conduct of its engagements. Our Firm is structured to provide leadership in achieving high quality professional performance while maintaining the concept of individual responsibility. Policies and procedures have been established providing assurance that professional engagements are properly planned and executed. Decisions are based on the substance of issues, not on form.
+                          </p>
+                          </div>
+
+                          <div style={{ float: 'left' }}>
+                            <p style={{textAlign:'justify',
+    borderRadius: '5px',
+    width: '290px',
+    padding: '12px',
+    margin: '10px'
+    }}>   
+                            <u style={{
+                              color: "green",
+                              textDecorationColor: "yellow",
+                              fontSize: "large",
+                            }}>Please mail resume to:</u>  
+                              <br/>
+                              Email: info.finntaxs@gmail.com
+                              <br />
+                              6518 Lee Valley Drive
+                              <br />
+                              Apt 201 Springfield
+                              <br />
+                              Virginia 22150 USA
+                            </p>
+                          </div>
+                          </div>
+                          
+                          <div>
+                          <p style={{textAlign:'justify',paddingRight: '360px'}}>
+                            Our policies and procedures designate Partners of the Firm for consultation on significant ethical, technical and industry questions. The policies and procedures are designed to assure that clients receive the best professional services we can provide. We continually keep in mind the public interest. We expect our Partners and Associates to identify and resolve all important engagement issues.
+                          </p>
+                          <p style={{textAlign:'justify',paddingRight: '360px'}}>
+                            The job requires high level tax preparation skills, superior tax research and problem solving abilities, broad software knowledge, and excellent written and oral communication skills. We have a team approach to provide high quality client service for tax compliance, planning, financial statements, and general business consulting.
+                          </p>
+                          <p style={{textAlign:'justify',paddingRight: '360px'}}>
+                            Check this page from time to time for specific employment opportunities for Certified Public Accountants, small business accountants and administrative staff.
+                          </p>
+                          </div>
+                         
+                          <div className="empty_space_30" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
 <Footer />
     </>
   )

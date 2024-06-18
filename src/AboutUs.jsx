@@ -16,13 +16,15 @@ import join_us from './images/join_us.jpg'
 
 
 
-const Employment = () => {
+
+const AboutUs = () => {
+
   return (
     <>
       <div id="page" className="site">
         <Header />
-        <div id="content" className="site-content">
-          <div className="page-header">
+        <div id="content" className="site-content"  >
+          <div className="page-header"  style={{marginTop:'82px'}} >
           <img src={team} style={{width:'1264px', height: "350px"}} />
             <div className="container">
               <div className="breadc-box no-line">
@@ -36,7 +38,7 @@ const Employment = () => {
                       <li>
                         <a href="index.html">Home</a>
                       </li>
-                      <li className="active">Employment</li>
+                      <li className="active">About Us</li>
                     </ul>
                   </div>
                 </div>
@@ -48,13 +50,12 @@ const Employment = () => {
               <div className="row">
                 <div className="wpb_column column_container col-sm-12" style={{
                       backgroundColor: "white",
-                      border: "2px solid white",
-                      borderRadius: "10px"
+                      border: "2px solid white"
                 }}>
                   <div className="column-inner">
                     <div className="wpb_wrapper">
                       <div className="section-head ">
-                        <h2 className="section-title linear_color">Employment Opportunities</h2>
+                        <h2 className="section-title linear_color">About Us</h2>
                       </div>
                       <div className="wpb_text_column wpb_content_element">
                         <div className="wpb_wrapper">
@@ -68,28 +69,7 @@ const Employment = () => {
                           </p>
                           </div>
 
-                          <div style={{ float: 'left' }}>
-                            <p style={{textAlign:'justify',
-    borderRadius: '5px',
-    width: '290px',
-    padding: '12px',
-    margin: '10px'
-    }}>   
-                            <u style={{
-                              color: "green",
-                              textDecorationColor: "yellow",
-                              fontSize: "large",
-                            }}>Please mail resume to:</u>  
-                              <br/>
-                              Email: info.finntaxs@gmail.com
-                              <br />
-                              6518 Lee Valley Drive
-                              <br />
-                              Apt 201 Springfield
-                              <br />
-                              Virginia 22150 USA
-                            </p>
-                          </div>
+                         
                           </div>
                           
                           <div>
@@ -450,7 +430,7 @@ const Employment = () => {
               </div>
             </div>
           </section>
-          <section className="wpb_row row-fluid section-padd no-top">
+          {/* <section className="wpb_row row-fluid section-padd no-top">
             <div className="container">
               <div className="row">
                 <div className="wpb_column column_container col-sm-12 ">
@@ -490,7 +470,7 @@ const Employment = () => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
         <Footer />
       </div>
@@ -498,4 +478,4 @@ const Employment = () => {
   )
 }
 
-export default Employment
+export default AboutUs

@@ -36,14 +36,15 @@ const Header=()=> {
                           <Link to="/">Home</Link>
                         </li>
                         <li className="menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1731">
-                          <Link to="#">About</Link>
+                          <Link to="#">About Us</Link>
                           <ul className="sub-menu">
+                          <li className="menu-item-1745">
+                              <Link to="/about_s">About</Link>
+                            </li>
                             <li className="menu-item-1738">
                               <Link to="/about">Our Values</Link>
                             </li>
-                            <li className="menu-item-1745">
-                              <Link to="/employment">Employment Opportunities</Link>
-                            </li>
+                            
                             <li className="menu-item-1742">
                               <Link to="#">Blog</Link>
                             </li>
@@ -92,7 +93,7 @@ const Header=()=> {
                           <Link to="/contactUs">Contact Us</Link>
                         </li>
                         <li>
-                          <Link to="/payment">Payments</Link>
+                          <Link to="/career">Career</Link>
                         </li>
                         <li>
                           <Link to="https://sa.www4.irs.gov/wmr/">Check Your Refund</Link>

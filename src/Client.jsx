@@ -11,9 +11,25 @@ import fourth from './images/4.jpg'
 import fifth from './images/5.jpg'
 import sixth from './images/6.jpg'
 import { Link } from 'react-router-dom';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 
 const Client=()=> {
+
+  const settings = {
+    dots: false,           // Hide dots
+  infinite: true,
+  slidesToShow: 1,       // Show one slide at a time
+  slidesToScroll: 1,     // Scroll one slide at a time
+  autoplay: true,
+  speed: 5000,
+  autoplaySpeed: 2000,
+  cssEase: "linear",
+  arrows: false,         // Hide navigation arrows (optional)  
+  };
+
   return (
     <>
       <div id="content" className="site-content">
@@ -39,7 +55,7 @@ const Client=()=> {
               <div className="contai_ner">
       <div className="cont_ent">
         <h1 id="font_change">
-        Welcome to Finntax Solutions <br /><span id="font_change_light">a Tax/Accounting Professionals</span>
+        Welcome to Finntax Solutions <br /><span id="font_change_light">The Tax and Accounting Professionals</span>
         </h1>
         <p>At Finntax, we are committed to providing outstanding service to our clients. Our dedication to the three underlying principles of professionalism, responsiveness, and quality sets us apart.</p>
         {/* <button className="get-started">GET STARTED →</button> */}
@@ -136,74 +152,10 @@ const Client=()=> {
             </div>
           </div>
         </section>
-        {/* <section className="wpb_row row-fluid section-padd row-has-fill row-o-equal-height row-o-content-middle row-flex bg-light">
-          <div className="container">
-            <div className="row">
-              <div className="wpb_column column_container col-sm-12">
-                <div className="column-inner">
-                  <div className="wpb_wrapper">
-                    <div className="row wpb_row inner row-fluid row-o-equal-height row-o-content-middle row-flex">
-                      <div className="wpb_column column_container col-sm-12 col-md-6 col-has-fill custom-padd-1">
-                        <div className="column-inner">
-                          <div className="wpb_wrapper" />
-                        </div>
-                      </div>
-                      <div className="bg-second wpb_column column_container col-sm-12 col-md-6">
-                        <div className="column-inner">
-                          <div className="wpb_wrapper">
-                            <div className="empty_space_60 lg-hidden h60">
-                              <span className="empty_space_inner" />
-                            </div>
-                            <div className="section-head padding-box-2 text-light">
-                              <h6>
-                                <span>WHO WE ARE</span>
-                              </h6>
-                              <h2 className="section-title">
-                                Our Mission,
-                                <br />
-                                Values and Motto
-                              </h2>
-                            </div>
-                            <div className="wpb_text_column wpb_content_element padding-box-2 text-light">
-                              <div className="wpb_wrapper">
-                                <p>
-                                  A putrid, nicotine-shaded mist loomed over
-                                  Beijing on Thursday after a massive sandstorm
-                                  slammed into the Chinese capital bringing the
-                                  latest airpocalypse to this smog-choked city.
-                                </p>
-                              </div>
-                            </div>
-                            <div className="wpb_text_column wpb_content_element paddtop-75 padding-box-2 info-box text-light">
-                              <div className="wpb_wrapper">
-                                <div className="sign">
-                                  <p>
-                                    <img
-                                      className="alignnone size-full wp-image-1087"
-                                      src="images/sign1.png"
-                                      alt=""
-                                      width={79}
-                                      height={49}
-                                    />
-                                  </p>
-                                  <h5>James Patterson</h5>
-                                  <p>Founder &amp; CEO</p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="empty_space_60 lg-hidden">
-                              <span className="empty_space_inner" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
+        <marquee> <h3>Tax return at just $75 only. <br />
+          Certified Acceptance Agent for ITIN.
+        </h3>
+     </marquee>
         <section className="wpb_row row-fluid section-padd">
           <div className="container">
             <div className="row">

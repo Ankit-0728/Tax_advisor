@@ -70,7 +70,7 @@ const RetPlanning=()=> {
         <p>
           6518 Lee Valley Drive
           <br />
-          APT 201 Springfield
+          Apt 201 Springfield
           <br />
           Virginia 22150 USA
         </p>
