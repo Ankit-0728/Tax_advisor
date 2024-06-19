@@ -61,7 +61,7 @@ const Client=()=> {
               <br/>
               <br/>
               <div className="text_animation">
-                  <span style={{ '--i': 1 }}>T</span>
+                  <span style={{ '--i': 1 }}>"T</span>
                   <span style={{ '--i': 2 }}>a</span>
                   <span style={{ '--i': 3 }}>x</span>
                   <span style={{ '--i': 4 }}>&nbsp;&nbsp;</span>
@@ -78,11 +78,14 @@ const Client=()=> {
                   <span style={{ '--i': 15 }}>$</span>
                   <span style={{ '--i': 16 }}>7</span>
                   <span style={{ '--i': 17 }}>5</span>
-                  <span style={{ '--i': 18 }}>&nbsp;&nbsp;</span>
-                  <span style={{ '--i': 19 }}>o</span>
-                  <span style={{ '--i': 20 }}>n</span>
-                  <span style={{ '--i': 21 }}>l</span>
-                  <span style={{ '--i': 22 }}>y.</span>
+                  <span style={{ '--i': 18 }}>*</span>
+                  <span style={{ '--i': 19 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 20 }}>o</span>
+                  <span style={{ '--i': 21 }}>n</span>
+                  <span style={{ '--i': 22 }}>l</span>
+                  <span style={{ '--i': 23 }}>y."</span>
+                 
+
               </div>
               <div className="contai_ner">
       <div className="cont_ent">
