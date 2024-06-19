@@ -5220,3 +5220,36 @@ div.line-chart .chart-legend li {
   font-weight: 100;
   color: rgb(79, 79, 79);
 }
+/* .blinking-text {
+  font-size: 30px;
+  color: red;
+  animation: blink-animation 1s steps(5, start) infinite;
+  text-align: center;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+} */
+
+.text_animation {
+  position: relative;
+  text-align: center;
+}
+.text_animation span {
+  position: relative;
+  font-size: 25px;
+  color: rgb(226,193,0);
+  display: inline-block;
+  animation: animate 4s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate {
+  0%, 40%, 100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}

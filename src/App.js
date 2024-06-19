@@ -21,6 +21,7 @@ import TermandCondition from './Term_Con';
 import Payment from './Pay_ment';
 import Career from './Career';
 import AboutUs from './AboutUs';
+import Disclaimer from './Disclaimer';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
     <Route path="/payment" element={<Payment /> } />
     <Route path="/career" element={<Career /> } />
     <Route path="/about_s" element={<AboutUs /> } />
+    <Route path="/disclaimer" element={<Disclaimer /> } />
 
     
  

@@ -40,6 +40,7 @@ const Client=()=> {
           aria-label="section-slider"
         >
         </section>
+        
         <section className="wpb_row row-fluid top-80 row-has-fill relative bg-light">
           <div className="container">
             <div className="row" style={{marginTop: "100px"}}>
@@ -52,6 +53,37 @@ const Client=()=> {
                   </div>
                 </div>
               </div>
+              <marquee> 
+                  <h3 style={{ fontSize:'15px', color:'rgb(0,117,0)'}}>
+                       We are also "Certified Acceptance Agent". Please contact for ITIN.
+                  </h3>
+              </marquee>
+              <br/>
+              <br/>
+              <div className="text_animation">
+                  <span style={{ '--i': 1 }}>T</span>
+                  <span style={{ '--i': 2 }}>a</span>
+                  <span style={{ '--i': 3 }}>x</span>
+                  <span style={{ '--i': 4 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 5 }}>R</span>
+                  <span style={{ '--i': 6 }}>e</span>
+                  <span style={{ '--i': 7 }}>t</span>
+                  <span style={{ '--i': 8 }}>u</span>
+                  <span style={{ '--i': 9 }}>r</span>
+                  <span style={{ '--i': 10 }}>n</span>
+                  <span style={{ '--i': 11 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 12 }}>a</span>
+                  <span style={{ '--i': 13 }}>t</span>
+                  <span style={{ '--i': 14 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 15 }}>$</span>
+                  <span style={{ '--i': 16 }}>7</span>
+                  <span style={{ '--i': 17 }}>5</span>
+                  <span style={{ '--i': 18 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 19 }}>o</span>
+                  <span style={{ '--i': 20 }}>n</span>
+                  <span style={{ '--i': 21 }}>l</span>
+                  <span style={{ '--i': 22 }}>y.</span>
+              </div>
               <div className="contai_ner">
       <div className="cont_ent">
         <h1 id="font_change">
@@ -59,7 +91,7 @@ const Client=()=> {
         </h1>
         <p>At Finntax, we are committed to providing outstanding service to our clients. Our dedication to the three underlying principles of professionalism, responsiveness, and quality sets us apart.</p>
         {/* <button className="get-started">GET STARTED →</button> */}
-        <p className="" style={{marginTop:'65px'}}>
+        <p className="" style={{marginTop:'30px'}}>
         "Join the many satisfied clients who have trusted Finntax with their tax consulting needs."  <br /><br />
         Let us help you navigate the complexities of tax laws and regulations with ease and confidence.
         </p>
@@ -152,10 +184,7 @@ const Client=()=> {
             </div>
           </div>
         </section>
-        <marquee> <h3>Tax return at just $75 only. <br />
-          Certified Acceptance Agent for ITIN.
-        </h3>
-     </marquee>
+        
         <section className="wpb_row row-fluid section-padd">
           <div className="container">
             <div className="row">

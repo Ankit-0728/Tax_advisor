@@ -100,6 +100,10 @@ const Footer =()=> {
                         
                         <Link to="/contactUs">Contact</Link>
                       </li>
+                      <li>
+                        
+                        <Link to="/disclaimer">Disclaimer</Link>
+                      </li>
                     </ul>
                   </div>
                 </section>

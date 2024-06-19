@@ -54,14 +54,26 @@ const AboutUs = () => {
                           
                           <div>
                           <p style={{textAlign:'justify',paddingRight: '360px'}}>
-                            Our policies and procedures designate Partners of the Firm for consultation on significant ethical, technical and industry questions. The policies and procedures are designed to assure that clients receive the best professional services we can provide. We continually keep in mind the public interest. We expect our Partners and Associates to identify and resolve all important engagement issues.
+                            <h3>What We Offer</h3>
+                            <ul>
+                                <li><strong>Tax Services:</strong> From tax planning to preparation and compliance, we ensure our clients meet their tax obligations efficiently while minimizing liabilities.</li>
+                                <li><strong>Financial Consulting:</strong> Our consulting services encompass a wide range of financial matters, including budgeting, investment strategies, and financial planning for both short-term objectives and long-term growth.</li>
+                                <li><strong>Business Advisory:</strong> For businesses, we provide strategic insights and advisory services to enhance profitability, manage risk, and foster sustainable growth.</li>
+                            </ul>
                           </p>
                           <p style={{textAlign:'justify',paddingRight: '360px'}}>
-                            The job requires high level tax preparation skills, superior tax research and problem solving abilities, broad software knowledge, and excellent written and oral communication skills. We have a team approach to provide high quality client service for tax compliance, planning, financial statements, and general business consulting.
+                          <h3>Why Choose Us?</h3>
+                            <ul>
+                                <li><strong>Expertise:</strong> Our team consists of seasoned professionals with extensive knowledge in tax law, finance, and business strategy.</li>
+                                <li><strong>Client-Centric Approach:</strong> We prioritize understanding our clients' unique needs and goals to deliver tailored solutions that drive success.</li>
+                                <li><strong>Commitment to Excellence:</strong> We uphold the highest standards of professionalism, ethics, and service quality in everything we do.</li>
+                            </ul>
+
                           </p>
                           <p style={{textAlign:'justify',paddingRight: '360px'}}>
-                            Check this page from time to time for specific employment opportunities for Certified Public Accountants, small business accountants and administrative staff.
+                          Whether you're an individual looking for tax advice or a business seeking comprehensive financial solutions, FINNTAX SOLUTIONS LLC is here to help.<b><u>Contact us</u></b> today to discover how we can assist you in navigating the complexities of finance and taxation with confidence and clarity.
                           </p>
+                        
                           </div>
                          
                           <div className="empty_space_30" />

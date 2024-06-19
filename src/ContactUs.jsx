@@ -42,30 +42,34 @@ const ContactUs=()=> {
         to address your questions whenever necessary.
       </p>
       <div className="contact-info">
-        <i className="contact-info-icon fas fa-map-marker-alt fa-2x" style={{ fontSize: "xx-large",marginTop:'-123px'}} />
+        <i className="contact-info-icon fas fa-map-marker-alt fa-2x" style={{ fontSize: "xx-large",marginTop:'-205px'}} />
         <div className="contact-info-text">
-          <h3>Location Address :</h3>
+          <h3>Location Address</h3>
           
-          <h5>USA</h5>
-          <p>6518 Lee Valley Drive, Apt #201 Springfield, Virginia 22150</p>
-          <h5>INDIA</h5>
-          <p style={{textAlign:'justify'}}>Vijay Nagar, Medanta Hopsital, Indore 452010</p>
+          <h5>USA :</h5>
+          <p>6518 Lee Valley Drive, Apt #201 Springfield, Virginia 22150.</p>
+          <h5>DELHI (INDIA) :</h5>
+          <p style={{textAlign:'justify'}}>92, LGF, Defence Enclave, Delhi 110092.</p>
+          <h5>INDORE (INDIA) :</h5>
+          <p style={{textAlign:'justify'}}>215, Shagun Arcade, Vijay Nagar, Indore 452010.</p>
         </div>
       </div>
       <div className="contact-info">
-        <i className="contact-info-icon fas fa-phone-alt"style={{ fontSize: "xx-large",marginTop:'-123px'}} />
+        <i className="contact-info-icon fas fa-phone-alt"style={{ fontSize: "xx-large",marginTop:'-205px'}} />
         <div className="contact-info-text">
-          <h3>Phone Numbers :</h3>
-          <h5>USA</h5>
+          <h3>Phone Numbers</h3>
+          <h5>USA :</h5>
           <p style={{textAlign:'justify'}}>+1 571.389.1304</p>
-          <h5>INDIA</h5>
-          <p style={{textAlign:'justify'}}>+91 000-000-0000</p>
+          <h5> DELHI (INDIA) :</h5>
+          <p style={{textAlign:'justify'}}>+91 981.129.6710</p>
+          <h5> INDORE (INDIA) :</h5>
+          <p style={{textAlign:'justify'}}>+91 903.909.5390</p>
         </div>
       </div>
       <div className="contact-info">
         <i className="contact-info-icon fas fa-envelope"style={{ fontSize: "xx-large"}} />
         <div className="contact-info-text">
-          <h3>Email Address:</h3>
+          <h3>Email Address</h3>
           <p style={{textAlign:'justify'}}>info.finntaxs@gmail.com</p>
         </div>
       </div>
