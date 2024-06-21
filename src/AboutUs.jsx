@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from './footer/Footer'
 import Header from './header/Header'
 import team from './images/team.jpg'
-import ceo from './images/director.jpeg'
+import ceo from './images/Directors.jpeg'
 import new_md from './images/marketingH.jpeg'
 import trainer from './images/trainer.jpg'
 import trainer_1 from './images/trainer1.jpg'
@@ -98,7 +98,7 @@ const AboutUs = () => {
                           </h5>
                           <div className="line" />
                           <p style={{textAlign:'justify'}}>
-                          A visionary leader dedicated to excellence in tax and accounting services.
+                          A visionary leader highly dedicated to excellence in taxation and accounting services.
                           </p>
                           <div className="social-mem">
                             <a href="#" target="_blank">

@@ -10,6 +10,7 @@ import third from './images/3.jpg'
 import fourth from './images/4.jpg'
 import fifth from './images/5.jpg'
 import sixth from './images/6.jpg'
+import homeBanner from './images/banner.homePage.jpg'
 import { Link } from 'react-router-dom';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -54,14 +55,14 @@ const Client=()=> {
                 </div>
               </div>
               <marquee> 
-                  <h3 style={{ fontSize:'15px', color:'rgb(0,117,0)'}}>
-                       We are also "Certified Acceptance Agent". Please contact for ITIN.
+                  <h3 style={{ fontSize:'20px', color:'rgb(226,193,0)'}}>
+                       We are also Certified Acceptance Agent. Please contact for ITIN.
                   </h3>
               </marquee>
               <br/>
               <br/>
               <div className="text_animation">
-                  <span style={{ '--i': 1 }}>"T</span>
+                  <span style={{ '--i': 1 }}>T</span>
                   <span style={{ '--i': 2 }}>a</span>
                   <span style={{ '--i': 3 }}>x</span>
                   <span style={{ '--i': 4 }}>&nbsp;&nbsp;</span>
@@ -83,7 +84,7 @@ const Client=()=> {
                   <span style={{ '--i': 20 }}>o</span>
                   <span style={{ '--i': 21 }}>n</span>
                   <span style={{ '--i': 22 }}>l</span>
-                  <span style={{ '--i': 23 }}>y."</span>
+                  <span style={{ '--i': 23 }}>y.</span>
                  
 
               </div>
@@ -94,7 +95,7 @@ const Client=()=> {
         </h1>
         <p>At Finntax, we are committed to providing outstanding service to our clients. Our dedication to the three underlying principles of professionalism, responsiveness, and quality sets us apart.</p>
         {/* <button className="get-started">GET STARTED →</button> */}
-        <p className="" style={{marginTop:'30px'}}>
+        <p className="" style={{marginTop:'30px',fontWeight:'700'}}>
         "Join the many satisfied clients who have trusted Finntax with their tax consulting needs."  <br /><br />
         Let us help you navigate the complexities of tax laws and regulations with ease and confidence.
         </p>
@@ -107,6 +108,10 @@ const Client=()=> {
           <p>Starting at <span>$30/mo</span></p>
         </div>
       </div> */}
+    </div>
+
+    <div className='image_poster'>
+      <img className='home_Poster' src={homeBanner} alt=""/>
     </div>
               <div className="wpb_column column_container col-sm-6 col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
                 <div className="column-inner">

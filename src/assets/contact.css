@@ -63,7 +63,6 @@
   
   .contact-info {
     display: flex;
-    align-items: center;
     margin-bottom: 20px;
   }
   
@@ -94,6 +93,7 @@
   .myForm{
     background:linear-gradient(to right,yellow, green);
     border-radius: 32px;
+    padding: 10px;
   }
 
   .myCont{

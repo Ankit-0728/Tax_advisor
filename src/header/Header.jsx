@@ -100,14 +100,14 @@ const Header=()=> {
                           <Link to="https://sa.www4.irs.gov/wmr/">Check Your Refund</Link>
                         </li>
                         <li>
-      <span style={{color:'white'}} >
+      <span style={{color:'white',marginLeft:'40px'}} >
         <FaPhoneAlt style={{marginRight: '8px'}} />
         <FaWhatsapp style={{marginRight: '8px'}} />
         <strong className="font-size18" style={{color:'rgb(226,193,0)'}}>
           +1 571.389.1304
         </strong>
       </span>{" "} <br />
-      <span style={{color:'white'}}>
+      <span style={{color:'white',marginLeft:'40px'}}>
         <FaEnvelope style={{marginRight: '8px'}} />
         <strong className="font-size18" style={{color:'rgb(226,193,0)'}}>
           info.finntaxs@gmail.com

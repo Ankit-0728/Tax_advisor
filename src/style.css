@@ -5240,7 +5240,8 @@ div.line-chart .chart-legend li {
 .text_animation span {
   position: relative;
   font-size: 25px;
-  color: rgb(226,193,0);
+  font-weight: 700;
+  color: rgb(0,117,0);
   display: inline-block;
   animation: animate 4s ease-in-out infinite;
   animation-delay: calc(0.1s * var(--i));
@@ -5253,3 +5254,11 @@ div.line-chart .chart-legend li {
     transform: translateY(-20px);
   }
 }
+
+.home_Poster {
+  margin-top: 20px;
+  height: 180px;
+  width: 100%;
+  border: 3px solid rgb(241, 235, 235);
+}
+
