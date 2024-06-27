@@ -5185,8 +5185,8 @@ div.line-chart .chart-legend li {
   background: black;
 }
 .blob {
-  width: 350px;
-  height: 350px;
+  width: 420px;
+  height: 360px;
   overflow: hidden;
   border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
   background: url(./images/animation_image.jpeg);
@@ -5262,3 +5262,7 @@ div.line-chart .chart-legend li {
   border: 3px solid rgb(241, 235, 235);
 }
 
+.image_mainPage {
+  width: 550px;
+  height: 150px;
+}

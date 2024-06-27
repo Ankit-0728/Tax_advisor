@@ -73,18 +73,32 @@ const Client=()=> {
                   <span style={{ '--i': 9 }}>r</span>
                   <span style={{ '--i': 10 }}>n</span>
                   <span style={{ '--i': 11 }}>&nbsp;&nbsp;</span>
-                  <span style={{ '--i': 12 }}>a</span>
+                  <span style={{ '--i': 12 }}>S</span>
                   <span style={{ '--i': 13 }}>t</span>
-                  <span style={{ '--i': 14 }}>&nbsp;&nbsp;</span>
-                  <span style={{ '--i': 15 }}>$</span>
-                  <span style={{ '--i': 16 }}>7</span>
-                  <span style={{ '--i': 17 }}>5</span>
-                  <span style={{ '--i': 18 }}>*</span>
-                  <span style={{ '--i': 19 }}>&nbsp;&nbsp;</span>
-                  <span style={{ '--i': 20 }}>o</span>
-                  <span style={{ '--i': 21 }}>n</span>
-                  <span style={{ '--i': 22 }}>l</span>
-                  <span style={{ '--i': 23 }}>y.</span>
+                  <span style={{ '--i': 14 }}>a</span>
+                  <span style={{ '--i': 15 }}>r</span>
+                  <span style={{ '--i': 16 }}>t</span>
+                  <span style={{ '--i': 17 }}>i</span>
+                  <span style={{ '--i': 18 }}>n</span>
+                  <span style={{ '--i': 19 }}>g</span>
+                  <span style={{ '--i': 20 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 21 }}>a</span>
+                  <span style={{ '--i': 22 }}>t</span>
+                  <span style={{ '--i': 23 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 24 }}>J</span>
+                  <span style={{ '--i': 25 }}>u</span>
+                  <span style={{ '--i': 26 }}>s</span>
+                  <span style={{ '--i': 27 }}>t</span>
+                  <span style={{ '--i': 28 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 29 }}>$</span>
+                  <span style={{ '--i': 30 }}>7</span>
+                  <span style={{ '--i': 31 }}>5</span>
+                  <span style={{ '--i': 32 }}>*</span>
+                  <span style={{ '--i': 33 }}>&nbsp;&nbsp;</span>
+                  <span style={{ '--i': 34 }}>o</span>
+                  <span style={{ '--i': 35 }}>n</span>
+                  <span style={{ '--i': 36 }}>l</span>
+                  <span style={{ '--i': 37 }}>y.</span>
                  
 
               </div>
@@ -95,6 +109,7 @@ const Client=()=> {
         </h1>
         <p>At Finntax, we are committed to providing outstanding service to our clients. Our dedication to the three underlying principles of professionalism, responsiveness, and quality sets us apart.</p>
         {/* <button className="get-started">GET STARTED →</button> */}
+        <img src={homeBanner} className='image_mainPage' />
         <p className="" style={{marginTop:'30px',fontWeight:'700'}}>
         "Join the many satisfied clients who have trusted Finntax with their tax consulting needs."  <br /><br />
         Let us help you navigate the complexities of tax laws and regulations with ease and confidence.
@@ -110,9 +125,9 @@ const Client=()=> {
       </div> */}
     </div>
 
-    <div className='image_poster'>
+    {/* <div className='image_poster'>
       <img className='home_Poster' src={homeBanner} alt=""/>
-    </div>
+    </div> */}
               <div className="wpb_column column_container col-sm-6 col-md-3" style={{marginTop:'30px',marginBottom:'30px'}}>
                 <div className="column-inner">
                   <div className="wpb_wrapper">
