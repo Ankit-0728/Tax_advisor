@@ -136,7 +136,7 @@ const Client=()=> {
                       <div className="">
                         <h4>Our Values</h4>
                         <p className='set_item'>
-                        Our firm provides outstanding service to our clients because of our dedication to the three underlying principles of professionalism, responsiveness, and quality, ensuring exceptional results.
+                      We provide outstanding service to our clients because of our dedication to the three underlying principles of professionalism, responsiveness, and quality, ensuring exceptional results.
                         </p>
                       </div>
                     </div>
