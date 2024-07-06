@@ -52,30 +52,31 @@ const ContactUs=()=> {
           
           <h5 style={{fontSize:'18px'}}>USA :</h5>
           <p style={{textAlign:'justify',lineHeight:'0px'}}>6518 Lee Valley Drive, Apt # 201 Springfield, Virginia 22150.</p>
-          <p style={{textAlign:'justify',lineHeight:'5px'}}><i className="fas fa-phone-alt fa-2x" style={{ fontSize: "larger"}} /> +1 571.389.1304</p>
+          <p style={{textAlign:'justify',lineHeight:'5px'}}></p>
+          <p style={{textAlign:'justify',lineHeight:'5px'}}><span style={{fontWeight:'600'}}>Phone: </span> +1 571.389.1304</p>
           </div>
           <div>          
-          <h5 style={{fontSize:'18px',marginTop:'50px'}}>INDIA </h5>
+          <h5 style={{fontSize:'18px',marginTop:'40px'}}>INDIA </h5>
           </div>
           <div>
           <h5>Delhi :</h5>
           <p style={{textAlign:'justify',lineHeight:'0px'}}>92, LGF, Defence Enclave, Delhi 110092.</p>
-          <p style={{textAlign:'justify'}}><i className="fas fa-phone-alt fa-2x" style={{ fontSize: "larger"}} /> +91 981.129.6710</p>
+          <p style={{textAlign:'justify',lineHeight:'5px'}}><span style={{fontWeight:'600'}}>Phone: </span>+91 981.129.6710</p>
           </div>
           <div>
           <h5>Kolkata :</h5>
           <p style={{textAlign:'justify',lineHeight:'0px'}}>25, Black Burn Lane, Kolkata 700012.</p>
-          <p style={{textAlign:'justify',lineHeight:'5px'}}> <i className="fas fa-phone-alt fa-2x" style={{ fontSize: "larger"}} /> +91 933.938.0016</p>
+          <p style={{textAlign:'justify',lineHeight:'5px'}}><span style={{fontWeight:'600'}}>Phone: </span> +91 933.938.0016</p>
           </div>
           <div>
           <h5>Indore :</h5>
           <p style={{textAlign:'justify',lineHeight:'0px'}}>215, Shagun Arcade, Vijay Nagar, Indore 452010.</p>
-          <p style={{textAlign:'justify',lineHeight:'5px'}}> <i className="fas fa-phone-alt fa-2x" style={{ fontSize: "larger"}} /> +91 903.909.5390</p>
+          <p style={{textAlign:'justify',lineHeight:'5px'}}><span style={{fontWeight:'600'}}>Phone: </span> +91 903.909.5390</p>
           </div>
           <div>
           <h5>Bengaluru :</h5>
           <p style={{textAlign:'justify',lineHeight:'0px'}}>2nd Floor, 17, Bhagyalaxmi Square, Sector-3, Bengaluru 560102</p>
-          <p style={{textAlign:'justify',lineHeight:'5px'}}> <i className="fas fa-phone-alt fa-2x" style={{ fontSize: "larger"}} /> +91 987.119.9257</p>
+          <p style={{textAlign:'justify',lineHeight:'5px'}}><span style={{fontWeight:'600'}}>Phone: </span>+91 987.119.9257</p>
           </div>
         </div>
       </div>

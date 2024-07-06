@@ -22,6 +22,7 @@ import Payment from './Pay_ment';
 import Career from './Career';
 import AboutUs from './AboutUs';
 import Disclaimer from './Disclaimer';
+import Payments from './Payments';
 
 function App() {
   return (
@@ -51,6 +52,8 @@ function App() {
     <Route path="/career" element={<Career /> } />
     <Route path="/about_s" element={<AboutUs /> } />
     <Route path="/disclaimer" element={<Disclaimer /> } />
+    <Route path="/Payments" element={<Payments /> } />
+    
 
     
  

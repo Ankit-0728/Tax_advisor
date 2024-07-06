@@ -87,6 +87,9 @@ const Header=()=> {
                             <li>
                               <Link to="/book_account">Accounting and Bookkeeping</Link>
                             </li>
+                            <li>
+                              <Link to="#">Payments</Link>
+                            </li>
 
                           </ul>
                         </li>
@@ -95,6 +98,9 @@ const Header=()=> {
                         </li>
                         <li>
                           <Link to="/career">Career</Link>
+                        </li>
+                        <li>
+                          <Link to="/Payments">Payments</Link>
                         </li>
                         <li>
                           <Link to="https://sa.www4.irs.gov/wmr/">Check Your Refund</Link>

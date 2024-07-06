@@ -109,11 +109,12 @@ const Client=()=> {
         </h1>
         <p>At Finntax, we are committed to providing outstanding service to our clients. Our dedication to the three underlying principles of professionalism, responsiveness, and quality sets us apart.</p>
         {/* <button className="get-started">GET STARTED →</button> */}
-        <img src={homeBanner} className='image_mainPage' />
-        <p className="" style={{marginTop:'30px',fontWeight:'700'}}>
-        "Join the many satisfied clients who have trusted Finntax with their tax consulting needs."  <br /><br />
+        
+        <p className="" style={{marginTop:'30px',fontWeight:'700',fontSize:'16px'}}>
+        Join the many satisfied clients who have trusted Finntax with their tax consulting needs.  <br /><br />
         Let us help you navigate the complexities of tax laws and regulations with ease and confidence.
         </p>
+        {/* <img src={homeBanner} className='image_mainPage' /> */}
       </div>
       <div class="blob"></div>
       {/* <div className="image-section">
@@ -1007,7 +1008,7 @@ const Client=()=> {
                               alt=""
                             />
                             <h5>
-                              Quynh Anh
+                              Mathew Head
                               <span className="font12 normal">from Hanoi</span>
                             </h5>
                           </div>
