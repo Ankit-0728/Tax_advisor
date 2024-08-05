@@ -29,7 +29,7 @@ const Header=()=> {
                           src={logo}
                           alt="Consultax"
                           style={{height:"100px",
-                            float: "inline-start"
+                            float: "inline-start",mixBlendMode:'multiply'
                           }}
                         />
                         </Link>
@@ -105,7 +105,7 @@ const Header=()=> {
                         <li>
                           <Link to="https://sa.www4.irs.gov/wmr/">Check Your Refund</Link>
                         </li>
-                        <li>
+                        <li style={{paddingTop: '10px'}}>
       <span style={{color:'white',marginLeft:'40px'}} >
         <FaPhoneAlt style={{marginRight: '8px'}} />
         <FaWhatsapp style={{marginRight: '8px'}} />
