@@ -55,7 +55,7 @@ const Client=()=> {
                 </div>
               </div>
               <marquee> 
-                  <h3 style={{ fontSize:'20px', color:'rgb(226,193,0)'}}>
+                  <h3 style={{ fontSize:'20px', color:'rgb(226,193,0)', paddingTop:'15px'}}>
                        We are also Certified Acceptance Agent. Please contact for ITIN.
                   </h3>
               </marquee>

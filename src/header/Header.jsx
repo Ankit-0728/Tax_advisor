@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/fintaxxLogo.png'
+import logo from '../images/Fintax main logo.jpg'
 import { Link } from 'react-router-dom'
 import { FaPhoneAlt, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
 
@@ -28,7 +28,7 @@ const Header=()=> {
                           className="logo-static"
                           src={logo}
                           alt="Consultax"
-                          style={{maxWidth: "10%",
+                          style={{height:"100px",
                             float: "inline-start"
                           }}
                         />

@@ -1308,7 +1308,7 @@ ul.info-list.info_on_right_side li:last-child {
   width: 9px;
   height: 14px;
   right: 18px;
-  top: 50%;
+  top: 60%;
   margin-top: -8px;
   font-weight: 900;
   font-family: "FontAwesome";
@@ -1487,7 +1487,7 @@ ul.info-list.info_on_right_side li:last-child {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .header-style-1 .main-navigation > ul > li > a {
-  padding: 7px 20px 7px 20px;
+  padding: 15px 20px 7px 20px;
 }
 .header-style-1 .main-navigation > ul > li.menu-item-has-children > a {
   padding-right: 32px;
